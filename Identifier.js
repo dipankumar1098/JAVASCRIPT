@@ -6,4 +6,4 @@ eid=202;
 console.log(eid);               ``
 //updated
 delete eid ;
-console.log(eid)
+console.log(eid);
