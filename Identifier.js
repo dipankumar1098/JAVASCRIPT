@@ -3,7 +3,7 @@ var eid=101;
 console.log(eid);
 //read the variable
 eid=202;
-console.log(eid);
+console.log(eid);               ``
 //updated
 delete eid ;
-console.log(eid);
+console.log(eid)
