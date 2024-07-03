@@ -11,4 +11,4 @@ let cse= ["deepan","dipty","ankita"]
 console.log(cse);
 console.log(cse[0]);
 console.log(cse[1]);
-console.log(cse[4]);
+console.log(cse[4]);//undefined for incorrect value
