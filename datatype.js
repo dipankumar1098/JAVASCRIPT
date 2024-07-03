@@ -11,4 +11,9 @@ let cse= ["deepan","dipty","ankita"]
 console.log(cse);
 console.log(cse[0]);
 console.log(cse[1]);
+console.log(typeof cse);
 console.log(cse[4]);//undefined for incorrect value
+
+let cseid= [10,20,30,40,10]
+console.log(cseid);
+console.log(typeof cseid);
