@@ -8,9 +8,11 @@ let quantity='2';
 let price=399;
 
 console.log(a+b);
+console.log(a*b);
 console.log(a+c);
 console.log(a+d);
 console.log(a+e);
 console.log(c+d);
 
 console.log(quantity+price);
+console.log(quantity*price);
