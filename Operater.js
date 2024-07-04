@@ -17,5 +17,6 @@ console.log(c+d);
 console.log(a==f);
 console.log(a===f);
 
-
+console.log(quantity+price);
+console.log(quantity*price);
 
