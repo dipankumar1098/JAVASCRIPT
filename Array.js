@@ -2,13 +2,13 @@
 let i=0;
 let eids=[101,102,103,104];
 
- for(i=0;i<=3;i++)
+ for(i=0;i<4;i++)
 {
     console.log(eids[i])
 }
 
 //using while loop
-while(i<=3)
+while(i<4)
 {
     console.log(eids[i]);
     i=i+1
