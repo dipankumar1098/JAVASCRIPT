@@ -1,4 +1,1 @@
-function display()
-{
-    alert ('good evening')
-}
+document.getElementbyid(xyz)
