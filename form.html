@@ -4,16 +4,19 @@
     </head>
     <body>
         <h3>Login page</h3>
-        <form onsubmit="Validate">
+        <form onsubmit="return validate()">
     <div>
         <label>Email Id</label>
         <input type="text" id="email">
-    </div>
+    </div> <br>
+    <span id="emailmsg" style="color: red;"></span>  
+<br>
 
     <div>
         <label>password</label>
         <input type="password" id="pass">   
-    </div>
+    </div> <br>
+    <span id="pwdmsg" style="color:red"></span><br>
             <input type="submit" value="login">
            
         </form>
