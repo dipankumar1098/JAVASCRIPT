@@ -6,5 +6,5 @@ if(a>b)
 }
 else
 {
-   console.log ("b is Great")
+   console.log (" b is  Great")
 }
