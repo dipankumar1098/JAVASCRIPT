@@ -8,7 +8,7 @@ class Account{
 let a1=new Account();
 console.log(a1)
 a1.deposit_Amount(15000)
-a1.deposit_Amount(15)
+a1.deposit_Amount(20)
 console.log(a1)
 let a2=new Account();
 console.log(a2)
