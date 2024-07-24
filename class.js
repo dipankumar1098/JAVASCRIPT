@@ -7,9 +7,7 @@ class Account{
     get_Bal(){
       return this.acc_Bal - this.min_Bal;
     }
-    withdrawal(50){
-        if(this.acc_Bal - cash < this.min_Bal){
-    }
+
 }
 let rg=new Account();
 rg.deposit_Amount(15000)
