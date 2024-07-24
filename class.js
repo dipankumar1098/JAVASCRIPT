@@ -1,14 +1,24 @@
 class Account{
+    acc_Bal = 0;
     min_Bal=500;
-    acc_Bal=0;
     deposit_Amount(amount){
-        this.acc_Bal = this.acc_Bal+amount
+        this.acc_Bal = this.acc_Bal + amount
+    }
+    get_Bal(){
+      return this.acc_Bal - this.min_Bal;
+    }
+    withdrawal(50){
+        if(this.acc_Bal - cash < this.min_Bal){
     }
 }
-let a1=new Account();
-console.log(a1)
-a1.deposit_Amount(15000)
-a1.deposit_Amount(20)
-console.log(a1)
-let a2=new Account();
-console.log(a2)
+let rg=new Account();
+rg.deposit_Amount(15000)
+
+let pg=new Account();
+pg.deposit_Amount(50000); 
+
+let bal1=rg.get_Bal()
+console.log(bal1)
+
+let bal2=pg.get_Bal()
+console.log(bal2)
