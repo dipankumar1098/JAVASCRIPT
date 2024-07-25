@@ -8,7 +8,8 @@ class bank {
         this.acc_bal=this.acc_bal-amount;
     }
     get_bal(){
-        return this.acc_bal;
+        return this.acc_bal-this.min_bal;
+        
     }
 
 }
