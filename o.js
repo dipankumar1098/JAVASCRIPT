@@ -1,9 +1,14 @@
-class Account{
-    min_Bal=500
+class bank {
+    min_bal=500;
+    acc_bal=0;
+    deposit(amount){
+       this.acc_bal=this.acc_bal+amount;
+    }
+    withdrawal(amount){
+        this.acc_bal=this.acc_bal-amount;
+    }
+    get_bal(){
+        return this.acc_bal;
+    }
+
 }
-let a1=new Account()
-let a2=new Account()
-console.log(a1)
-console.log(a2)
-console.log(a1.min_Bal)
-console.log(a2.min_Bal)
