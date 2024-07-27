@@ -1,5 +1,5 @@
 class employee {
-    name="Deepan"
+    name="Ankita"
     id=101
     salary=10000
 }
