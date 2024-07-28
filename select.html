@@ -4,22 +4,19 @@
     </head>
     <body>
         <h3>Select designation</h3>
-        <select name="designation" id="desig">
+        <select name="designation" id="desig1">
             <option value="" selected disabled>Select Designation
             <option value="Developer">Developer
             <option value="Testing">Testing
             <option value="Devops">Devops
             <option value="customer support">customer support
         </select>
-        <input id="in" value="23">
         <button onclick="m()">Submit</button>
+        <h1 id="desig2"></h1>
     </body>
-
-    <!-- <script>
+    <script>
         function m(){
-            // let l = document.getElementById("in")
-            let desig = document.getElementById("desig").value
-            console.log(desig)
-        }
-    </script> -->
+            let value = document.getElementById("desig1").value;
+            document.getElementById('desig2').textContent = value;        }
+    </script>
 </html>
