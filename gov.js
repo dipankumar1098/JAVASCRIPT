@@ -1,4 +1,3 @@
-import {tax,discount} from './goaNode.js';
+let disc= require('./goa.js')
 
-console.log(tax);
-console.log(discount);
+console.log(disc);
