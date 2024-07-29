@@ -8,4 +8,4 @@ let details={
             email :'deepan@gmail.com'
         }
 let emp_details={...emp , ...details}
-console.log(emp_details);
+console.log(emp_details);//object doesn't allow Duplicates
